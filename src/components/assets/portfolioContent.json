@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Blogstacker",
+        "image": "./images/blogstacker.png",
+        "description": "A MySQL based CRUD app using Node, Express, Sequelize, Handlebars and other technologies.",
+        "link": "#"
+    },
+    {
+        "title": "MediaPhile",
+        "image": "./images/mediaphile.png",
+        "description": "A full-stack photo sharing site utilizing Node, Express, Handlebars, AWS and S3.",
+        "link": "#"
+    },
+    {
+        "title": "SchedulerMe",
+        "image": "./images/schedulerme.png",
+        "description": "A workday scheduler using Bootstrap, Fontawesome, JQuery and Moment.",
+        "link":"#"
+    },
+    {
+        "title": "VirtualBarcade",
+        "image": "./images/virtualBarcade.png",
+        "description": "A RESTFUL toy using Fetch on multiple APIs.",
+        "link":"#"
+    }
+]
