@@ -3,7 +3,7 @@ import headshot from './headshot_no_bg.png';
 
 export default function About() {
   return (
-    <div>
+    <div className='vh-100'>
 
 <div className="card mb-3 offset-md-3 mt-5 bg-dark text-light" style={{ maxWidth : '50rem'}}>
   <div className="row g-0">
