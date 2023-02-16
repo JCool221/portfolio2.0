@@ -1,0 +1,22 @@
+[
+    {
+        "site": "Facebook",
+        "icon": "./images/icons/facebook.png",
+        "link": "https://www.facebook.com/jcool2211"
+    },
+    {
+        "site": "Github",
+        "icon": "./images/icons/github.png",
+        "link": "https://github.com/JCool221"
+    },
+    {
+        "site": "Instagram",
+        "icon": "./images/icons/instagram.png",
+        "link": "https://www.instagram.com/jcool_42/"
+    },
+    {
+        "site": "LinkedIn",
+        "icon": "./images/icons/linkedin.png",
+        "link": "https://www.linkedin.com/in/j-cool42/"
+    }
+]
