@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './style.css';
+// import './style.css';
 
 function Contact() {
   // Here we set two state variables for name and email using `useState`
@@ -28,7 +28,7 @@ function Contact() {
     e.preventDefault();
 
     // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${name} ${email} ${message}`);
+    alert(`mailto:jcool2939@gmail.com?subject=${encodeURI(name)},${encodeURI(email)}&body=${encodeURI(message)}`);
     setName('');
     setEmail('');
     setMessage('');
@@ -36,7 +36,7 @@ function Contact() {
 
   return (
     <div className='row mt-5 justify-content-center'>
-      <div className='w-50 text-center'>
+      <div className='w-50 text-center vh-100'>
 
       <p>
         Shoot me an email
