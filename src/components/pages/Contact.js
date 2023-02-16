@@ -26,23 +26,27 @@ function Contact() {
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-
+    let target = (`mailto:jcool2939@gmail.com?subject=${encodeURI(name)},${encodeURI(email)}&body=${encodeURI(message)}`)
     // Alert the user their first and last name, clear the inputs
-    alert(`mailto:jcool2939@gmail.com?subject=${encodeURI(name)},${encodeURI(email)}&body=${encodeURI(message)}`);
+    console.log(target)
+    let link = document.createElement('a')
+    link.href = target;
+    console.log(link)
+    link.click();   
     setName('');
     setEmail('');
     setMessage('');
   };
-
   return (
-    <div className='row mt-5 justify-content-center'>
-      <div className='w-50 text-center vh-100'>
+    <div className='row mt-5 justify-content-center vh-100'>
+      <div className='w-50 bg-dark text-center h-50'>
 
-      <p>
+      <p className='mt-5 fs-4'>
         Shoot me an email
       </p>
       <form className="form">
         <input
+          className='form-control'
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -50,6 +54,7 @@ function Contact() {
           placeholder="Name"
           />
         <input
+          className='form-control'
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -57,6 +62,7 @@ function Contact() {
           placeholder="Email Address"
           />
         <textarea 
+          className='form-control'
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -64,11 +70,12 @@ function Contact() {
           // placeholder="message"
           style={{ minWidth:'100%'}}
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" className='btn btn-lg btn-secondary mt-2' onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
           </div>
+        
     </div>
   );
 }

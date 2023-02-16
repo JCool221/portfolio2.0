@@ -9,7 +9,7 @@ export default function Portfolio() {
         content.map(content => {
           return (
             <div key={content.title} className="col-md-6 m-5">
-              <div className="card text-center fs-4 bg-dark" 
+              <div className="card shadow-lg text-center fs-4 bg-dark" 
               // style={{ width: '18rem', height: '40rem' }}
               >
                 <img src={`${content.image}`} className="card-img-top" alt={content.title} />
