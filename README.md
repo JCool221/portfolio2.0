@@ -22,6 +22,8 @@ http://jcool221.github.io/portfolio2.0
 
 There are several pages. You can contact me from the email block (hey central grading, it kinda works, give it a try) the links form my social media stick to the bottom of the page.
 
+![Screenshot](https://github.com/JCool221/portfolio2.0/blob/main/jcool221.github.io_portfolio2.0_.png)
+
 <a name="Contributing"></a>
 ## Contributing
 
