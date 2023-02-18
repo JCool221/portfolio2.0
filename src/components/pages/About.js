@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className='vh-100'>
 
-<div className="card shadow-lg mb-3 offset-md-3 mt-5 bg-dark text-light" style={{ maxWidth : '50rem'}}>
+<div className="card shadow-lg mb-3 offset-md-4 mt-5 bg-dark text-light" style={{ maxWidth : '50rem'}}>
   <div className="row g-0">
     <div className="col-md-4">
       <img src={headshot} className="img-fluid rounded-start mt-5" alt="Hey that's Me!" />
