@@ -16,8 +16,8 @@ export default function Portfolio() {
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{content.title}</h5>
                   <p className="card-text">{content.description}</p>
-                  <a href="#" className="mt-auto btn btn-info m-1">See it on Github</a>
-                  <a href="#" className="mt-auto btn btn-info m-1">Check it Out!</a>
+                  <a href={content.github} className="mt-auto btn btn-info m-1 fs-5">See it on Github</a>
+                  <a href={content.link} className="mt-auto btn btn-info m-1 fs-5">Check it Out!</a>
                 </div>
               </div>
             </div>

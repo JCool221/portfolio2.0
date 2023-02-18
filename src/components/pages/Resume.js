@@ -1,13 +1,10 @@
 import React from 'react';
-import { Document, Page } from 'react-pdf';
-import resume from '../assets/JCooleyResume_online_02_23.pdf'
+import resume from '../assets/Resume.png'
 
 export default function Resume() {
   return (
-    <div>
-        <Document file={resume}>
-            <Page pageNumber={1}/>
-        </Document>
+    <div className='d-flex justify-content-center'>
+      <img className='img-fluid' alt='My Resume, link coming soon' src={resume}/>
     </div>
   );
 }
