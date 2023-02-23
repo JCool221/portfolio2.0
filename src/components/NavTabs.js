@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className='navbar bg-dark fs-4'>
-      <p className='mx-2'>Joss Cooley</p>
+      <p className='mx-2'>Josh Cooley</p>
     <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
         <a
