@@ -10,7 +10,7 @@ export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
     useEffect(() => {
-      document.title = 'Joss Cooley';
+      document.title = 'Josh Cooley';
     }, []);
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
