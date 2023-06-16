@@ -14,6 +14,13 @@
         "link": "https://mediaphile.herokuapp.com/"
     },
     {
+        "title": "WhatIsTheWeather",
+        "image":"./images/whatistheweather.png",
+        "description": "A weather app with 5 day forecast using REST, JQUERY, and Bootstrap",
+        "github": "https://github.com/JCool221/WhatistheWeather",
+        "link": "https://jcool221.github.io/WhatistheWeather/"
+    },
+    {
         "title": "SchedulerMe",
         "image": "./images/schedulerme.png",
         "description": "A workday scheduler using Bootstrap, Fontawesome, JQuery and Moment.",
